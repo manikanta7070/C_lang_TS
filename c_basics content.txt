@@ -1,0 +1,60 @@
+#C_language 
+
+C Language Introduction : 
+
+Writing the First Program in C :
+
+#include <stdio.h>
+int main() {
+  int a = 10;
+  printf("%d", a);
+  return 0;  
+}
+
+#output : 10
+
+#Structure of the C program
+
+components of the c program
+
+   1 > Header Files Inclusion – Line 1 [#include <stdio.h>]
+
+      stddef.h – Defines several useful types and macros.
+      stdint.h – Defines exact width integer types.
+      stdio.h – Defines core input and output functions
+      stdlib.h – Defines numeric conversion functions, pseudo-random network generator, and memory allocation
+      string.h – Defines string handling functions
+      math.h – Defines common mathematical functions. 
+
+   2 > Main Method Declaration – Line 2 [int main()]  
+      
+     It is the entry point of a C program and the execution typically begins with the first line of the main().
+  
+   3 >  Body of Main Method – Line 3 to Line 6 [enclosed in {}]
+
+      It can be anything like manipulations, searching, sorting, printing, etc
+    
+   4. > Statement – Line 4 [printf(“Hello World”);]
+
+      Statements are the instructions given to the compiler. In C, a statement is always terminated by a semicolon (;).
+
+   5. >The return statement refers to the return values from a function. This return statement and return value depend upon the return type of the function.                          return statement in our program returns the value from main().
+
+#setting of c development environment
+
+>> writing the hello world program
+ 
+
+#header of the profram  
+   #include <stdio.h>
+ 
+// main function -
+// where the execution of program begins
+int main()
+{
+ 
+    // prints hello world
+    printf("Hello World");
+ 
+    return 0;
+}
